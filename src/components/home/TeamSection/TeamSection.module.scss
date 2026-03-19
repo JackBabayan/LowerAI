@@ -1,0 +1,57 @@
+.teamGrid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.teamCard {
+  padding: 0.2rem;
+}
+
+.teamPhoto {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 0.9rem;
+  overflow: hidden;
+  background: linear-gradient(135deg, #d9d5cc 0%, #f1eee8 100%);
+}
+
+.teamPhotoImage {
+  object-fit: cover;
+}
+
+.teamCard h3 {
+  margin-top: 0.85rem;
+  color: var(--text-title);
+}
+
+.teamRole {
+  margin-top: 0.35rem;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.teamCard p {
+  margin-top: 0.7rem;
+  line-height: 1.6;
+}
+
+.teamCard a {
+  margin-top: 0.75rem;
+  display: inline-block;
+  color: var(--accent);
+}
+
+@media (max-width: 1024px) {
+  .teamGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+}

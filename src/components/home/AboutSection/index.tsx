@@ -1,5 +1,6 @@
-import styles from "@/app/page.module.scss";
-import type { LocalizedContent } from "./types";
+import shared from "../shared/SharedLayout.module.scss";
+import type { LocalizedContent } from "../types";
+import styles from "./AboutSection.module.scss";
 
 type AboutSectionProps = {
   content: LocalizedContent;
@@ -7,8 +8,8 @@ type AboutSectionProps = {
 
 export function AboutSection({ content }: AboutSectionProps) {
   return (
-    <section id="about" className={`${styles.section} ${styles.sectionLight}`}>
-      <div className={styles.container}>
+    <section id="about" className={`${shared.section} ${shared.sectionLight}`}>
+      <div className={shared.container}>
         <h2>{content.about.title}</h2>
         <p className={styles.lead}>{content.about.lead}</p>
 

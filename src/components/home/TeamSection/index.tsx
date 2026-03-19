@@ -1,6 +1,7 @@
 import Image from "next/image";
-import styles from "@/app/page.module.scss";
-import type { LocalizedContent } from "./types";
+import shared from "../shared/SharedLayout.module.scss";
+import type { LocalizedContent } from "../types";
+import styles from "./TeamSection.module.scss";
 
 type TeamSectionProps = {
   content: LocalizedContent;
@@ -8,8 +9,8 @@ type TeamSectionProps = {
 
 export function TeamSection({ content }: TeamSectionProps) {
   return (
-    <section id="team" className={`${styles.section} ${styles.sectionLight}`}>
-      <div className={styles.container}>
+    <section id="team" className={`${shared.section} ${shared.sectionLight}`}>
+      <div className={shared.container}>
         <h2>{content.team.title}</h2>
         <div className={styles.teamGrid}>
           {content.team.members.map((member) => (

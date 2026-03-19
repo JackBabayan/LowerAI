@@ -30,6 +30,10 @@ export type LocalizedContent = {
     badge: string;
     title: string;
     description: string;
+    roadmap: {
+      title: string;
+      text: string;
+    }[];
   };
   about: {
     title: string;

@@ -1,5 +1,6 @@
-import styles from "@/app/page.module.scss";
-import type { LocalizedContent } from "./types";
+import shared from "../shared/SharedLayout.module.scss";
+import type { LocalizedContent } from "../types";
+import styles from "./ProductsSection.module.scss";
 
 type ProductsSectionProps = {
   content: LocalizedContent;
@@ -7,11 +8,8 @@ type ProductsSectionProps = {
 
 export function ProductsSection({ content }: ProductsSectionProps) {
   return (
-    <section
-      id="products"
-      className={`${styles.section} ${styles.sectionBeige} ${styles.products}`}
-    >
-      <div className={styles.container}>
+    <section id="products" className={`${shared.section} ${shared.sectionBeige}`}>
+      <div className={shared.container}>
         <h2>{content.products.title}</h2>
         <div className={styles.productsGrid}>
           {content.products.items.map((product) => (

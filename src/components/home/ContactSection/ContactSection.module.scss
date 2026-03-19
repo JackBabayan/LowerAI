@@ -1,0 +1,51 @@
+.contactLead {
+  margin-top: 1rem;
+  color: #d4d0c8;
+}
+
+.contactEmail {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-size: clamp(1.3rem, 3.8vw, 2.2rem);
+  color: var(--text-dark);
+}
+
+.contactForm {
+  margin-top: 2rem;
+  max-width: 42rem;
+  display: grid;
+  gap: 0.95rem;
+}
+
+.contactForm label {
+  display: grid;
+  gap: 0.4rem;
+  color: #d4d0c8;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  border: 1px solid #343434;
+  border-radius: 0.6rem;
+  background: #222;
+  color: var(--text-dark);
+  padding: 0.72rem 0.9rem;
+  font: inherit;
+}
+
+.contactForm button {
+  width: fit-content;
+  border: 0;
+  border-radius: 0.6rem;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  padding: 0.7rem 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.contactForm button:hover {
+  background: var(--accent-hover);
+}

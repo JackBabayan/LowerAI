@@ -1,22 +1,17 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import styles from "@/app/page.module.scss";
-import { AboutSection } from "./AboutSection";
-import { ContactSection } from "./ContactSection";
-import {
-  contentDate,
-  languageOptions,
-  localizedContent,
-  organizationSchema,
-} from "./content";
-import { FeaturedSection } from "./FeaturedSection";
-import { Header } from "./Header";
-import { HeroSection } from "./HeroSection";
-import { ProductsSection } from "./ProductsSection";
-import { SiteFooter } from "./SiteFooter";
-import { TeamSection } from "./TeamSection";
-import type { Language } from "./types";
+import { AboutSection } from "../AboutSection";
+import { ContactSection } from "../ContactSection";
+import { languageOptions, localizedContent, organizationSchema } from "../content";
+import { FeaturedSection } from "../FeaturedSection";
+import { Header } from "../Header";
+import { HeroSection } from "../HeroSection";
+import { ProductsSection } from "../ProductsSection";
+import { SiteFooter } from "../SiteFooter";
+import { TeamSection } from "../TeamSection";
+import type { Language } from "../types";
+import styles from "./HomePageClient.module.scss";
 
 export function HomePageClient() {
   const [language, setLanguage] = useState<Language>("en");
@@ -65,7 +60,7 @@ export function HomePageClient() {
         <ContactSection content={content} />
       </main>
 
-      <SiteFooter content={content} contentDate={contentDate} />
+      <SiteFooter content={content} />
 
       <script
         type="application/ld+json"

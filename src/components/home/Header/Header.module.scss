@@ -1,0 +1,110 @@
+.header {
+  padding: 1.5rem 0;
+  background: var(--bg-main);
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: 700;
+  color: var(--text-title);
+}
+
+.logoImage {
+  width: 40px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.desktopNav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.desktopNav a {
+  color: var(--text-primary);
+  font-size: 0.98rem;
+}
+
+.langSwitch {
+  display: inline-flex;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.langSwitch button {
+  border: 0;
+  background: transparent;
+  color: var(--text-secondary);
+  padding: 0.35rem 0.8rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.langActive {
+  background: var(--text-title) !important;
+  color: var(--text-dark) !important;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+.mobileMenu summary {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  cursor: pointer;
+}
+
+.mobileMenu summary::-webkit-details-marker {
+  display: none;
+}
+
+.mobileMenu summary span {
+  width: 1.4rem;
+  height: 2px;
+  background: var(--text-title);
+}
+
+.mobileMenu nav {
+  position: absolute;
+  right: 1.5rem;
+  top: 4.25rem;
+  background: var(--bg-light);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  min-width: 10.5rem;
+  padding: 0.75rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+}
+
+.mobileMenu nav a {
+  display: block;
+  padding: 0.55rem 0.4rem;
+}
+
+@media (max-width: 768px) {
+
+  .desktopNav,
+  .langSwitch {
+    display: none;
+  }
+
+  .mobileMenu {
+    display: block;
+    position: relative;
+  }
+}

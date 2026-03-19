@@ -59,7 +59,25 @@
       "featured": {
         "badge": "In Development",
         "title": "Launching Armenia's First AI Legal Assistant",
-        "description": "Our flagship product combines proprietary AI technology with comprehensive Armenian legal databases to deliver instant, accurate legal research and consultation for professionals and citizens."
+        "description": "Our flagship product combines proprietary AI technology with comprehensive Armenian legal databases to deliver instant, accurate legal research and consultation for professionals and citizens.",
+        "roadmap": [
+          {
+            "title": "Current State",
+            "text": "Deep legal market research, discovery interviews with practicing lawyers, growing our early-access waitlist, and forming partnerships with Armenian law firms."
+          },
+          {
+            "title": "Whats Next",
+            "text": "MVP launch with a curated knowledge base of core Armenian laws and regulations, followed by closed testing with legal professionals to validate accuracy and real-world fit."
+          },
+          {
+            "title": "After MVP",
+            "text": "Full document and case file upload support, a legal relations map for navigating interconnected legislation, and a B2B/B2G model serving law firms, corporate legal teams, and government institutions."
+          },
+          {
+            "title": "Going Global",
+            "text": "Using Armenian government contracts as proof of institutional trust, we license our legal AI infrastructure to ministries, legal publishers, and public institutions across the CIS and Europe"
+          }
+        ]
       },
       "about": {
         "title": "Building the future of legal technology",
@@ -138,21 +156,21 @@
             "role": "Co-founder & CEO",
             "bio": "Vitali drives business vision and strategic partnerships with a strong entrepreneurial background in building scalable ventures.",
             "linkedin": "https://www.linkedin.com/in/vitali-sargsyan/",
-            "photo": "/vito.jpg"
+            "photo": "/Vito.png"
           },
           {
             "name": "Saro Babayan",
             "role": "Co-founder & Chief Product Officer",
             "bio": "Saro leads product direction with a deep focus on user needs, turning complex legal workflows into intuitive digital experiences.",
             "linkedin": "www.linkedin.com/in/saro-babayan",
-            "photo": "/saro.jpg"
+            "photo": "/Saro.png"
           },
           {
             "name": "Tigran Vardanyan",
             "role": "Co-founder & Chief Technology Officer",
             "bio": "Tigran leads AI and engineering architecture, building robust, high-accuracy systems for legal search and reasoning.",
             "linkedin": "https://www.linkedin.com/in/vardanyantigran/",
-            "photo": "/tiko.jpg"
+            "photo": "/Tiko.png"
           }
         ]
       },
@@ -215,7 +233,25 @@
       "featured": {
         "badge": "Մշակման փուլում",
         "title": "Հայաստանի առաջին AI Իրավական Օգնականի մեկնարկը",
-        "description": "Մեր առաջատար արտադրանքը համադրում է սեփական AI տեխնոլոգիան և հայկական իրավական տվյալների բազաները՝ ապահովելով արագ և ճշգրիտ իրավական հետազոտություն ու խորհրդատվություն մասնագետների և քաղաքացիների համար։"
+        "description": "Մեր առաջատար արտադրանքը համադրում է սեփական AI տեխնոլոգիան և հայկական իրավական տվյալների բազաները՝ ապահովելով արագ և ճշգրիտ իրավական հետազոտություն ու խորհրդատվություն մասնագետների և քաղաքացիների համար։",
+        "roadmap": [
+          {
+            "title": "Current State",
+            "text": "Խորը իրավական շուկայի հետազոտություն, discovery հարցազրույցներ գործող փաստաբանների հետ, վաղ հասանելիության սպասման ցուցակի ընդլայնում և համագործակցությունների ձևավորում հայկական իրավաբանական ընկերությունների հետ։"
+          },
+          {
+            "title": "Whats Next",
+            "text": "MVP-ի թողարկում՝ Հայաստանի հիմնական օրենքների և կարգավորումների curated գիտելիքային բազայով, որին կհաջորդի փակ փորձարկում իրավական մասնագետների հետ՝ ճշգրտությունն ու իրական կիրառելիությունը վավերացնելու համար։"
+          },
+          {
+            "title": "After MVP",
+            "text": "Լիարժեք փաստաթղթերի և case file-երի upload աջակցություն, իրավական կապերի քարտեզ փոխկապակցված օրենսդրությունը հասկանալու համար, և B2B/B2G մոդել՝ իրավաբանական ընկերությունների, կորպորատիվ իրավաբանական թիմերի ու պետական կառույցների համար։"
+          },
+          {
+            "title": "Going Global",
+            "text": "Հայաստանի պետական պայմանագրերը որպես ինստիտուցիոնալ վստահության ապացույց օգտագործելով՝ մենք լիցենզավորում ենք մեր legal AI ենթակառուցվածքը նախարարություններին, իրավական հրատարակիչներին և պետական հաստատություններին ԱՊՀ-ում և Եվրոպայում։"
+          }
+        ]
       },
       "about": {
         "title": "Կառուցում ենք իրավական տեխնոլոգիաների ապագան",
@@ -294,21 +330,21 @@
             "role": "Համահիմնադիր և CEO",
             "bio": "Vitali-ն ղեկավարում է բիզնես ռազմավարությունը և գործընկերությունները՝ ունենալով մասշտաբավորվող նախաձեռնությունների կառուցման փորձ։",
             "linkedin": "https://www.linkedin.com/in/vitali-sargsyan/",
-            "photo": "/vito.jpg"
+            "photo": "/Vito.png"
           },
           {
             "name": "Saro Babayan",
             "role": "Համահիմնադիր և Product Director",
             "bio": "Saro-ն ղեկավարում է պրոդուկտի զարգացումը՝ օգտատերերի կարիքները դարձնելով պարզ և արդյունավետ թվային փորձառություն։",
             "linkedin": "https://www.linkedin.com/in/saro-babayan/",
-            "photo": "/saro.jpg"
+            "photo": "/Saro.png"
           },
           {
             "name": "Tigran Vardanyan",
             "role": "Համահիմնադիր և CTO",
             "bio": "Tigran-ը ղեկավարում է AI և ինժեներական ճարտարապետությունը՝ կառուցելով հուսալի և բարձր ճշգրտությամբ համակարգեր։",
             "linkedin": "https://www.linkedin.com/in/vardanyantigran/",
-            "photo": "/tiko.jpg"
+            "photo": "/Tiko.png"
           }
         ]
       },
@@ -371,7 +407,25 @@
       "featured": {
         "badge": "В разработке",
         "title": "Запуск первого AI Legal Assistant в Армении",
-        "description": "Наш флагманский продукт объединяет собственные AI-технологии и обширные армянские правовые базы, чтобы обеспечить мгновенный и точный юридический поиск и консультации для специалистов и граждан."
+        "description": "Наш флагманский продукт объединяет собственные AI-технологии и обширные армянские правовые базы, чтобы обеспечить мгновенный и точный юридический поиск и консультации для специалистов и граждан.",
+        "roadmap": [
+          {
+            "title": "Current State",
+            "text": "Глубокое исследование юридического рынка, discovery-интервью с практикующими юристами, рост списка ожидания раннего доступа и формирование партнерств с армянскими юридическими фирмами."
+          },
+          {
+            "title": "Whats Next",
+            "text": "Запуск MVP с curated-базой знаний по ключевым законам и регуляциям Армении, после чего — закрытое тестирование с юридическими специалистами для проверки точности и практической применимости."
+          },
+          {
+            "title": "After MVP",
+            "text": "Полноценная поддержка загрузки документов и материалов по делам, legal relations map для навигации по взаимосвязанному законодательству и B2B/B2G-модель для юрфирм, корпоративных юркоманд и государственных институтов."
+          },
+          {
+            "title": "Going Global",
+            "text": "Используя государственные контракты в Армении как подтверждение институционального доверия, мы лицензируем нашу legal AI-инфраструктуру министерствам, юридическим издателям и государственным учреждениям по СНГ и Европе."
+          }
+        ]
       },
       "about": {
         "title": "Строим будущее юридических технологий",
@@ -450,21 +504,21 @@
             "role": "Co-founder & CEO",
             "bio": "Vitali отвечает за стратегию и партнерства, опираясь на предпринимательский опыт в построении масштабируемых проектов.",
             "linkedin": "https://www.linkedin.com/in/vitali-sargsyan/",
-            "photo": "/vito.jpg"
+            "photo": "/Vito.png"
           },
           {
             "name": "Saro Babayan",
             "role": "Co-founder & Chief Product Officer",
             "bio": "Saro руководит продуктовым направлением и переводит сложные юридические процессы в понятный пользовательский опыт.",
             "linkedin": "https://www.linkedin.com/in/saro-babayan/",
-            "photo": "/saro.jpg"
+            "photo": "/Saro.png"
           },
           {
             "name": "Tigran Vardanyan",
             "role": "Co-founder & Chief Technology Officer",
             "bio": "Tigran возглавляет AI и инженерную архитектуру, создавая надежные и точные системы юридического поиска.",
             "linkedin": "https://www.linkedin.com/in/vardanyantigran/",
-            "photo": "/tiko.jpg"
+            "photo": "/Tiko.png"
           }
         ]
       },

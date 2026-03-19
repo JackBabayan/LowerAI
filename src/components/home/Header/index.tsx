@@ -1,6 +1,7 @@
 import Image from "next/image";
-import styles from "@/app/page.module.scss";
-import type { Language, LocalizedContent } from "./types";
+import shared from "../shared/SharedLayout.module.scss";
+import type { Language, LocalizedContent } from "../types";
+import styles from "./Header.module.scss";
 
 type HeaderProps = {
   language: Language;
@@ -17,7 +18,7 @@ export function Header({
 }: HeaderProps) {
   return (
     <header className={styles.header}>
-      <div className={styles.container}>
+      <div className={`${shared.container} ${styles.headerInner}`}>
         <a className={styles.logo} href="#top" aria-label="Noctua Tech home">
           <Image
             src="/Logo_Noctua_Tech.svg"

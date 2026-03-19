@@ -1,7 +1,4 @@
-:root {
-  --background: #ffffff;
-  --foreground: #2d2d2d;
-}
+@use "./variables";
 
 html,
 body {

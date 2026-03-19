@@ -1,0 +1,37 @@
+.hero h1 {
+  max-width: 19ch;
+  font-size: clamp(2.6rem, 8vw, 4.4rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--text-title);
+}
+
+.hero h1 span {
+  text-decoration: underline;
+  color: var(--accent);
+  font-style: italic;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.22em;
+}
+
+.hero p {
+  margin-top: 1.6rem;
+  max-width: 38rem;
+  font-size: clamp(1.05rem, 2.2vw, 1.45rem);
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.scrollIndicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  color: var(--text-title);
+  font-size: 0.95rem;
+}
+
+.scrollIndicator::after {
+  content: "↓";
+  font-size: 1.1rem;
+}

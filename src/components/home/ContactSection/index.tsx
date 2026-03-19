@@ -1,5 +1,6 @@
-import styles from "@/app/page.module.scss";
-import type { LocalizedContent } from "./types";
+import shared from "../shared/SharedLayout.module.scss";
+import type { LocalizedContent } from "../types";
+import styles from "./ContactSection.module.scss";
 
 type ContactSectionProps = {
   content: LocalizedContent;
@@ -7,8 +8,8 @@ type ContactSectionProps = {
 
 export function ContactSection({ content }: ContactSectionProps) {
   return (
-    <section id="contact" className={`${styles.section} ${styles.sectionDark}`}>
-      <div className={styles.container}>
+    <section id="contact" className={`${shared.section} ${shared.sectionDark}`}>
+      <div className={shared.container}>
         <h2>{content.contact.title}</h2>
         <p className={styles.contactLead}>{content.contact.subtitle}</p>
         <a className={styles.contactEmail} href={`mailto:${content.contact.email}`}>

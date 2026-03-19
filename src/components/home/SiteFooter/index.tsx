@@ -1,16 +1,16 @@
 import Image from "next/image";
-import styles from "@/app/page.module.scss";
-import type { LocalizedContent } from "./types";
+import shared from "../shared/SharedLayout.module.scss";
+import type { LocalizedContent } from "../types";
+import styles from "./SiteFooter.module.scss";
 
 type SiteFooterProps = {
   content: LocalizedContent;
-  contentDate: string;
 };
 
-export function SiteFooter({ content, contentDate }: SiteFooterProps) {
+export function SiteFooter({ content }: SiteFooterProps) {
   return (
     <footer className={styles.footer}>
-      <div className={styles.container}>
+      <div className={`${shared.container} ${styles.footerInner}`}>
         <div>
           <a className={styles.logo} href="#top" aria-label="Noctua Tech home">
             <Image
@@ -26,7 +26,6 @@ export function SiteFooter({ content, contentDate }: SiteFooterProps) {
         </div>
         <div className={styles.footerMeta}>
           <p>{content.footer.copyright}</p>
-          <p>Content date: {contentDate}</p>
           <div>
             <a href="#">{content.labels.privacy}</a>
             <a href="#">{content.labels.terms}</a>
