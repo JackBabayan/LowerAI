@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "@/app/page.module.scss";
 import type { LocalizedContent } from "./types";
 
@@ -12,7 +13,13 @@ export function SiteFooter({ content, contentDate }: SiteFooterProps) {
       <div className={styles.container}>
         <div>
           <a className={styles.logo} href="#top" aria-label="Noctua Tech home">
-            <span className={styles.logoMark}>N</span>
+            <Image
+              src="/Logo_Noctua_Tech.svg"
+              alt="Noctua Tech logo"
+              width={24}
+              height={24}
+              className={styles.logoImage}
+            />
             <span>Noctua Tech</span>
           </a>
           <p>{content.footer.tagline}</p>

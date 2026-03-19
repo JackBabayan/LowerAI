@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://noctuatech.org"),
   title: "Noctua Tech - AI Solutions for Legal Infrastructure",
   description:
     "Noctua Tech modernizes Armenia's legal infrastructure through AI, making legal services faster and more accessible for government, professionals, and citizens.",
@@ -31,6 +32,19 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://noctuatech.org",
     siteName: "Noctua Tech",
+    images: [
+      {
+        url: "/Logo_Noctua_Tech.png",
+      },
+    ],
+  },
+  icons: {
+    icon: [
+      { url: "/Logo_Noctua_Tech.png", type: "image/png" },
+      { url: "/Logo_Noctua_Tech.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/Logo_Noctua_Tech.png",
+    apple: "/Logo_Noctua_Tech.png",
   },
 };
 

@@ -54,7 +54,13 @@ export type LocalizedContent = {
   };
   team: {
     title: string;
-    members: { name: string; role: string; bio: string; linkedin: string }[];
+    members: {
+      name: string;
+      role: string;
+      bio: string;
+      linkedin: string;
+      photo: string;
+    }[];
   };
   contact: {
     title: string;

@@ -56,15 +56,10 @@
   color: var(--text-title);
 }
 
-.logoMark {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 999px;
-  display: grid;
-  place-items: center;
-  color: var(--text-dark);
-  font-size: 0.9rem;
-  background: var(--text-title);
+.logoImage {
+  width: 30px;
+  height: auto;
+  flex-shrink: 0;
 }
 
 .desktopNav {
@@ -139,7 +134,7 @@
 }
 
 .hero h1 {
-  max-width: 15ch;
+  max-width: 19ch;
   font-size: clamp(2.6rem, 8vw, 4.4rem);
   line-height: 1.08;
   letter-spacing: -0.03em;
@@ -148,6 +143,8 @@
 
 .hero h1 span {
   text-decoration: underline;
+  color: var(--accent);
+  font-style: italic;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.22em;
 }
@@ -350,10 +347,16 @@
 }
 
 .teamPhoto {
+  position: relative;
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 0.9rem;
+  overflow: hidden;
   background: linear-gradient(135deg, #d9d5cc 0%, #f1eee8 100%);
+}
+
+.teamPhotoImage {
+  object-fit: cover;
 }
 
 .teamCard h3 {
@@ -463,6 +466,7 @@
 }
 
 @media (max-width: 1024px) {
+
   .columns3,
   .teamGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
