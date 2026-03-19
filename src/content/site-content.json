@@ -6,7 +6,7 @@
     "name": "Noctua Tech",
     "url": "https://noctuatech.org",
     "description": "AI solutions for legal infrastructure, modernizing Armenia's legal access for professionals, government, and citizens.",
-    "email": "vit.sargsyan95@gmail.com",
+    "email": "info@noctuatech.org",
     "foundingLocation": "Armenia",
     "sameAs": [
       "https://www.linkedin.com/company/noctua-tech"
@@ -177,14 +177,14 @@
       "contact": {
         "title": "Let's work together",
         "subtitle": "Interested in partnering or investing? Get in touch.",
-        "email": "vit.sargsyan95@gmail.com",
+        "email": "info@noctuatech.org",
         "namePlaceholder": "Your name",
         "emailPlaceholder": "you@company.com",
         "messagePlaceholder": "Tell us about your request"
       },
       "footer": {
         "tagline": "AI solutions for legal infrastructure.",
-        "copyright": "© 2025 Noctua Tech. All rights reserved."
+        "copyright": "© 2026 Noctua Tech. All rights reserved."
       }
     },
     "hy": {
@@ -236,19 +236,19 @@
         "description": "Մեր առաջատար արտադրանքը համադրում է սեփական AI տեխնոլոգիան և հայկական իրավական տվյալների բազաները՝ ապահովելով արագ և ճշգրիտ իրավական հետազոտություն ու խորհրդատվություն մասնագետների և քաղաքացիների համար։",
         "roadmap": [
           {
-            "title": "Current State",
+            "title": "Ընթացիկ վիճակը",
             "text": "Խորը իրավական շուկայի հետազոտություն, discovery հարցազրույցներ գործող փաստաբանների հետ, վաղ հասանելիության սպասման ցուցակի ընդլայնում և համագործակցությունների ձևավորում հայկական իրավաբանական ընկերությունների հետ։"
           },
           {
-            "title": "Whats Next",
+            "title": "Հաջորդը ինչ է լինելու",
             "text": "MVP-ի թողարկում՝ Հայաստանի հիմնական օրենքների և կարգավորումների curated գիտելիքային բազայով, որին կհաջորդի փակ փորձարկում իրավական մասնագետների հետ՝ ճշգրտությունն ու իրական կիրառելիությունը վավերացնելու համար։"
           },
           {
-            "title": "After MVP",
+            "title": "MVP-ից հետո",
             "text": "Լիարժեք փաստաթղթերի և case file-երի upload աջակցություն, իրավական կապերի քարտեզ փոխկապակցված օրենսդրությունը հասկանալու համար, և B2B/B2G մոդել՝ իրավաբանական ընկերությունների, կորպորատիվ իրավաբանական թիմերի ու պետական կառույցների համար։"
           },
           {
-            "title": "Going Global",
+            "title": "Գլոբալ դառնալը",
             "text": "Հայաստանի պետական պայմանագրերը որպես ինստիտուցիոնալ վստահության ապացույց օգտագործելով՝ մենք լիցենզավորում ենք մեր legal AI ենթակառուցվածքը նախարարություններին, իրավական հրատարակիչներին և պետական հաստատություններին ԱՊՀ-ում և Եվրոպայում։"
           }
         ]
@@ -351,14 +351,14 @@
       "contact": {
         "title": "Եկեք համագործակցենք",
         "subtitle": "Հետաքրքրվա՞ծ եք գործընկերությամբ կամ ներդրումով։ Կապ հաստատեք մեզ հետ։",
-        "email": "vit.sargsyan95@gmail.com",
+        "email": "info@noctuatech.org",
         "namePlaceholder": "Ձեր անունը",
         "emailPlaceholder": "you@company.com",
         "messagePlaceholder": "Գրեք ձեր հարցումը"
       },
       "footer": {
         "tagline": "AI լուծումներ իրավական ենթակառուցվածքի համար։",
-        "copyright": "© 2025 Noctua Tech. Բոլոր իրավունքները պաշտպանված են։"
+        "copyright": "© 2026 Noctua Tech. Բոլոր իրավունքները պաշտպանված են։"
       }
     },
     "ru": {
@@ -410,19 +410,19 @@
         "description": "Наш флагманский продукт объединяет собственные AI-технологии и обширные армянские правовые базы, чтобы обеспечить мгновенный и точный юридический поиск и консультации для специалистов и граждан.",
         "roadmap": [
           {
-            "title": "Current State",
+            "title": "Текущий статус",
             "text": "Глубокое исследование юридического рынка, discovery-интервью с практикующими юристами, рост списка ожидания раннего доступа и формирование партнерств с армянскими юридическими фирмами."
           },
           {
-            "title": "Whats Next",
+            "title": "Что дальше",
             "text": "Запуск MVP с curated-базой знаний по ключевым законам и регуляциям Армении, после чего — закрытое тестирование с юридическими специалистами для проверки точности и практической применимости."
           },
           {
-            "title": "After MVP",
+            "title": "После MVP",
             "text": "Полноценная поддержка загрузки документов и материалов по делам, legal relations map для навигации по взаимосвязанному законодательству и B2B/B2G-модель для юрфирм, корпоративных юркоманд и государственных институтов."
           },
           {
-            "title": "Going Global",
+            "title": "Выход на глобальный уровень",
             "text": "Используя государственные контракты в Армении как подтверждение институционального доверия, мы лицензируем нашу legal AI-инфраструктуру министерствам, юридическим издателям и государственным учреждениям по СНГ и Европе."
           }
         ]
@@ -525,14 +525,14 @@
       "contact": {
         "title": "Давайте работать вместе",
         "subtitle": "Заинтересованы в партнерстве или инвестициях? Свяжитесь с нами.",
-        "email": "vit.sargsyan95@gmail.com",
+        "email": "info@noctuatech.org",
         "namePlaceholder": "Ваше имя",
         "emailPlaceholder": "you@company.com",
         "messagePlaceholder": "Расскажите о вашем запросе"
       },
       "footer": {
         "tagline": "AI-решения для правовой инфраструктуры.",
-        "copyright": "© 2025 Noctua Tech. Все права защищены."
+        "copyright": "© 2026 Noctua Tech. Все права защищены."
       }
     }
   }

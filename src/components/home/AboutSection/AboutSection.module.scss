@@ -17,6 +17,13 @@
   border-radius: 0.8rem;
   padding: 1.15rem;
   background: #fff;
+  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+}
+
+.infoCard:hover {
+  transform: translateY(-3px);
+  border-color: rgba(124, 58, 237, 0.35);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
 }
 
 .infoCard h3 {
@@ -38,6 +45,19 @@
 .valueCard {
   border-top: 2px solid var(--accent);
   padding-top: 0.8rem;
+  transition: transform 0.2s ease;
+}
+
+.valueCard:hover {
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .infoCard,
+  .valueCard {
+    transition: none;
+    transform: none;
+  }
 }
 
 .valueCard h4 {

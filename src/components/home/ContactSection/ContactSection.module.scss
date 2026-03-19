@@ -8,6 +8,11 @@
   margin-top: 1.25rem;
   font-size: clamp(1.3rem, 3.8vw, 2.2rem);
   color: var(--text-dark);
+  transition: opacity 0.2s ease;
+}
+
+.contactEmail:hover {
+  opacity: 0.85;
 }
 
 .contactForm {
@@ -15,6 +20,13 @@
   max-width: 42rem;
   display: grid;
   gap: 0.95rem;
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .contactForm label {
@@ -32,6 +44,14 @@
   color: var(--text-dark);
   padding: 0.72rem 0.9rem;
   font: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.2);
 }
 
 .contactForm button {
@@ -43,9 +63,45 @@
   font-weight: 600;
   padding: 0.7rem 1.1rem;
   cursor: pointer;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .contactForm button:hover {
   background: var(--accent-hover);
+  transform: translateY(-1px);
+}
+
+.contactForm button:active {
+  transform: translateY(0);
+}
+
+.contactForm button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.formFeedback {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.formFeedbackSuccess {
+  color: #bbf7d0;
+}
+
+.formFeedbackError {
+  color: #fecaca;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contactEmail,
+  .contactForm input,
+  .contactForm textarea,
+  .contactForm button,
+  .formFeedback {
+    transition: none;
+    transform: none;
+  }
 }

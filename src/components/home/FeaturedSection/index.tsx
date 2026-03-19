@@ -66,7 +66,6 @@ export function FeaturedSection({ content }: FeaturedSectionProps) {
                 key={activeItem.title || "roadmap-content"}
                 className={styles.roadmapContentAnimated}
               >
-                <h3>{activeItem.title}</h3>
                 <p>{activeItem.text}</p>
               </div>
             </div>

@@ -2,6 +2,12 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 1rem;
   padding: clamp(1.5rem, 4vw, 3rem);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.featuredCard:hover {
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
+  transform: translateY(-2px);
 }
 
 .badge {
@@ -13,6 +19,11 @@
   background: rgba(124, 58, 237, 0.2);
   border: 1px solid rgba(124, 58, 237, 0.45);
   color: #d8c3ff;
+  transition: transform 0.2s ease;
+}
+
+.badge:hover {
+  transform: translateY(-1px);
 }
 
 .featured h2 {
@@ -51,7 +62,7 @@
   padding: 1rem 1.15rem;
   font-size: 0.96rem;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: color 0.2s ease, background 0.2s ease, padding-left 0.2s ease;
 
   &:hover {
     color: var(--background);
@@ -61,18 +72,21 @@
 .roadmapTitleButtonActive {
   color: #121212;
   color: var(--background);
+  padding-left: 1.35rem;
 }
 
 .roadmapIndicator {
   background: transparent;
   width: 0rem;
-  transition: all 0.2s ease;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease,
+    width 0.2s ease, height 0.2s ease;
 
   &.roadmapIndicatorActive {
     width: 1rem;
     height: 1rem;
     border-color: var(--accent);
     background: var(--accent);
+    transform: scale(1.15);
   }
 }
 
@@ -81,7 +95,6 @@
   font-size: 0.82rem;
   letter-spacing: 0.04em;
   color: var(--background);
-  font-weight: 600;
 }
 
 .roadmapTitleText {
@@ -92,25 +105,22 @@
 
 .roadmapContent {
   padding: 1.35rem 1.45rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .roadmapContentAnimated {
   animation: roadmapFadeIn 0.35s ease;
+  max-width: 35rem;
 
-}
+  p {
+    margin-top: 0rem;
+    font-size: 1.6rem;
+    color: var(--background);
+    line-height: 1.65;
+  }
 
-
-.roadmapContentAnimated h3 {
-  margin-top: 0.35rem;
-  font-size: 1.25rem;
-  line-height: 1.35;
-  color: var(--background);
-}
-
-.roadmapContentAnimated p {
-  margin-top: 0.7rem;
-  color: var(--background);
-  line-height: 1.65;
 }
 
 @keyframes roadmapFadeIn {
@@ -132,5 +142,16 @@
 
   .roadmapTitles {
     border-right: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .featuredCard,
+  .badge,
+  .roadmapTitleButton,
+  .roadmapIndicator,
+  .roadmapContentAnimated {
+    transition: none;
+    animation: none;
   }
 }

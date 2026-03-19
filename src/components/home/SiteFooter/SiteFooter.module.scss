@@ -17,6 +17,12 @@
   gap: 0.7rem;
   font-weight: 700;
   color: var(--text-title);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.logo:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
 }
 
 .logoImage {
@@ -42,6 +48,19 @@
 
 .footerMeta a {
   color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+
+.footerMeta a:hover {
+  color: var(--text-title);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo,
+  .footerMeta a {
+    transition: none;
+    transform: none;
+  }
 }
 
 @media (max-width: 768px) {

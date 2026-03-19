@@ -16,6 +16,12 @@
   gap: 0.7rem;
   font-weight: 700;
   color: var(--text-title);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.logo:hover {
+  transform: translateY(-1px);
+  opacity: 0.9;
 }
 
 .logoImage {
@@ -33,6 +39,25 @@
 .desktopNav a {
   color: var(--text-primary);
   font-size: 0.98rem;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.desktopNav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.25rem;
+  width: 100%;
+  height: 1px;
+  background: var(--text-title);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.22s ease;
+}
+
+.desktopNav a:hover::after {
+  transform: scaleX(1);
 }
 
 .langSwitch {
@@ -49,6 +74,7 @@
   padding: 0.35rem 0.8rem;
   font-size: 0.82rem;
   cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 .langActive {
@@ -89,11 +115,41 @@
   padding: 0.75rem;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
   z-index: 10;
+  animation: mobileMenuIn 0.2s ease;
 }
 
 .mobileMenu nav a {
   display: block;
   padding: 0.55rem 0.4rem;
+  border-radius: 0.4rem;
+  transition: background 0.2s ease;
+}
+
+.mobileMenu nav a:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+@keyframes mobileMenuIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo,
+  .desktopNav a,
+  .desktopNav a::after,
+  .langSwitch button,
+  .mobileMenu nav {
+    transition: none;
+    animation: none;
+  }
 }
 
 @media (max-width: 768px) {

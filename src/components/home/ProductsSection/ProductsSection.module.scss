@@ -10,6 +10,13 @@
   border: 1px solid var(--border);
   border-radius: 0.8rem;
   padding: 1.2rem;
+  transition: transform 0.24s ease, box-shadow 0.24s ease, border-color 0.24s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(124, 58, 237, 0.3);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
 }
 
 .badgeSecondary {
@@ -21,6 +28,20 @@
   color: var(--accent);
   border: 1px solid rgba(124, 58, 237, 0.35);
   background: rgba(124, 58, 237, 0.08);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.productCard:hover .badgeSecondary {
+  background: rgba(124, 58, 237, 0.14);
+  border-color: rgba(124, 58, 237, 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .productCard,
+  .badgeSecondary {
+    transition: none;
+    transform: none;
+  }
 }
 
 .productCard h3 {
