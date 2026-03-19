@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 header('Content-Type: application/json; charset=UTF-8');
@@ -28,15 +29,6 @@ $data = is_array($json) ? $json : $_POST;
 $name = trim((string)($data['name'] ?? ''));
 $email = trim((string)($data['email'] ?? ''));
 $message = trim((string)($data['message'] ?? ''));
-$company = trim((string)($data['company'] ?? ''));
-
-if ($company !== '') {
-    echo json_encode([
-        'ok' => true,
-        'message' => 'Message sent successfully.',
-    ]);
-    exit;
-}
 
 if ($name === '' || $email === '' || $message === '') {
     http_response_code(422);

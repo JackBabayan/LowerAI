@@ -19,11 +19,11 @@ export function ContactSection({ content }: ContactSectionProps) {
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    const formData = new FormData(event.currentTarget);
+    const form = event.currentTarget;
+    const formData = new FormData(form);
     const name = String(formData.get("name") ?? "").trim();
     const email = String(formData.get("email") ?? "").trim();
     const message = String(formData.get("message") ?? "").trim();
-    const company = String(formData.get("company") ?? "").trim();
 
     setStatus("submitting");
     setFeedback("");
@@ -41,7 +41,6 @@ export function ContactSection({ content }: ContactSectionProps) {
           name,
           email,
           message,
-          company,
         }),
       });
 
@@ -53,7 +52,7 @@ export function ContactSection({ content }: ContactSectionProps) {
 
       setStatus("success");
       setFeedback("Message sent successfully. We will get back to you soon.");
-      event.currentTarget.reset();
+      form.reset();
     } catch (error) {
       setStatus("error");
       setFeedback(
@@ -74,14 +73,6 @@ export function ContactSection({ content }: ContactSectionProps) {
         </a>
 
         <form className={styles.contactForm} onSubmit={handleSubmit}>
-          <input
-            type="text"
-            name="company"
-            tabIndex={-1}
-            autoComplete="off"
-            className={styles.honeypot}
-            aria-hidden
-          />
           <label>
             {content.labels.name}
             <input
