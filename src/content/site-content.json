@@ -16,19 +16,23 @@
     "en": {
       "navItems": [
         {
-          "href": "#about",
+          "href": "/#about",
           "label": "About"
         },
         {
-          "href": "#products",
+          "href": "/#products",
           "label": "Products"
         },
         {
-          "href": "#team",
+          "href": "/#team",
           "label": "Team"
         },
         {
-          "href": "#contact",
+          "href": "/ai-tax-calculator",
+          "label": "AI Tax Calculator"
+        },
+        {
+          "href": "/#contact",
           "label": "Contact"
         }
       ],
@@ -182,6 +186,16 @@
         "emailPlaceholder": "you@company.com",
         "messagePlaceholder": "Tell us about your request"
       },
+      "aiTaxCalculator": {
+        "title": "AI Tax Calculator",
+        "subtitle": "Planning and estimates with AI-assisted guidance",
+        "lead": "This tool helps you explore tax-related questions with structured, AI-supported analysis. Use it to prepare questions for professionals or to understand high-level scenarios—not as a substitute for legal or tax advice.",
+        "disclaimer": "Results are informational only. Noctua Tech does not provide tax, legal, or accounting services through this page. Consult a qualified advisor for decisions that affect your obligations or filings.",
+        "initialMessages": [
+          "Hi! I'm your AI tax assistant for Noctua Tech.",
+          "Ask about income, deductions, or how to prepare questions for a tax advisor — I'll help you frame your question."
+        ]
+      },
       "footer": {
         "tagline": "AI solutions for legal infrastructure.",
         "copyright": "© 2026 Noctua Tech. All rights reserved."
@@ -190,19 +204,23 @@
     "hy": {
       "navItems": [
         {
-          "href": "#about",
+          "href": "/#about",
           "label": "Մեր մասին"
         },
         {
-          "href": "#products",
+          "href": "/#products",
           "label": "Ապրանքներ"
         },
         {
-          "href": "#team",
+          "href": "/#team",
           "label": "Թիմ"
         },
         {
-          "href": "#contact",
+          "href": "/ai-tax-calculator",
+          "label": "AI հարկային հաշվիչ"
+        },
+        {
+          "href": "/#contact",
           "label": "Կապ"
         }
       ],
@@ -356,6 +374,16 @@
         "emailPlaceholder": "you@company.com",
         "messagePlaceholder": "Գրեք ձեր հարցումը"
       },
+      "aiTaxCalculator": {
+        "title": "AI հարկային հաշվիչ",
+        "subtitle": "Պլանավորում և գնահատումներ AI-ով աջակցված ուղեցույցով",
+        "lead": "Այս գործիքը օգնում է կառուցվածքային, AI-ով աջակցված վերլուծությամբ ուսումնասիրել հարկային հարցերը։ Օգտագործեք այն մասնագետների համար հարցեր պատրաստելու կամ ընդհանուր սցենարները հասկանալու համար՝ ոչ թե որպես իրավական կամ հարկային խորհրդատվության փոխարեն։",
+        "disclaimer": "Արդյունքները միայն տեղեկատվական են։ Noctua Tech-ը այս էջի միջոցով չի տրամադրում հարկային, իրավական կամ հաշվապահական ծառայություններ։ Ձեր պարտավորություններին կամ հայտարարություններին ազդող որոշումների համար դիմեք որակավորված խորհրդատուի։",
+        "initialMessages": [
+          "Ողջույն։ Ես ձեր AI հարկային օգնականն եմ Noctua Tech-ում։",
+          "Հարցեք եկամուտների, հանման մասին կամ ինչպես պատրաստել հարցեր հարկային խորհրդատուի համար — կօգնեմ ձևակերպել հարցը։"
+        ]
+      },
       "footer": {
         "tagline": "AI լուծումներ իրավական ենթակառուցվածքի համար։",
         "copyright": "© 2026 Noctua Tech. Բոլոր իրավունքները պաշտպանված են։"
@@ -364,19 +392,23 @@
     "ru": {
       "navItems": [
         {
-          "href": "#about",
+          "href": "/#about",
           "label": "О нас"
         },
         {
-          "href": "#products",
+          "href": "/#products",
           "label": "Продукты"
         },
         {
-          "href": "#team",
+          "href": "/#team",
           "label": "Команда"
         },
         {
-          "href": "#contact",
+          "href": "/ai-tax-calculator",
+          "label": "Налоговый калькулятор AI"
+        },
+        {
+          "href": "/#contact",
           "label": "Контакты"
         }
       ],
@@ -529,6 +561,16 @@
         "namePlaceholder": "Ваше имя",
         "emailPlaceholder": "you@company.com",
         "messagePlaceholder": "Расскажите о вашем запросе"
+      },
+      "aiTaxCalculator": {
+        "title": "Налоговый калькулятор AI",
+        "subtitle": "Планирование и оценки с AI-подсказками",
+        "lead": "Инструмент помогает разбирать налоговые вопросы с структурированным AI-анализом. Используйте его, чтобы подготовить вопросы специалистам или понять общие сценарии — не как замену юридической или налоговой консультации.",
+        "disclaimer": "Результаты носят исключительно информационный характер. Noctua Tech не оказывает через эту страницу налоговых, юридических или бухгалтерских услуг. Для решений, влияющих на ваши обязательства и отчётность, обратитесь к квалифицированному специалисту.",
+        "initialMessages": [
+          "Здравствуйте! Я AI-помощник по налогам Noctua Tech.",
+          "Спросите о доходах, вычетах или как подготовить вопросы к налоговому консультанту — помогу сформулировать запрос."
+        ]
       },
       "footer": {
         "tagline": "AI-решения для правовой инфраструктуры.",

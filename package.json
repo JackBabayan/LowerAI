@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prebuild": "node scripts/strip-n8n-chat-global-css.mjs",
+    "postinstall": "node scripts/strip-n8n-chat-global-css.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@n8n/chat": "^1.14.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",

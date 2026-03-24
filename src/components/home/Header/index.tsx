@@ -19,7 +19,7 @@ export function Header({
   return (
     <header className={styles.header}>
       <div className={`${shared.container} ${styles.headerInner}`}>
-        <a className={styles.logo} href="#top" aria-label="Noctua Tech home">
+        <a className={styles.logo} href="/" aria-label="Noctua Tech home">
           <Image
             src="/Logo_Noctua_Tech.svg"
             alt="Noctua Tech logo"

@@ -1,0 +1,49 @@
+.main {
+  flex: 1;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3.3rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: 0.75rem;
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.lead {
+  margin-top: 1.5rem;
+  max-width: 50rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.disclaimer {
+  margin-top: 2rem;
+  max-width: 50rem;
+  padding: 1rem 1.15rem;
+  border-radius: 0.8rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.chat {
+  margin-top: 2rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.6);
+  height: 70vh;
+
+  >div {
+    height: 100%;
+  }
+}

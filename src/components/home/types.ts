@@ -74,6 +74,14 @@ export type LocalizedContent = {
     emailPlaceholder: string;
     messagePlaceholder: string;
   };
+  aiTaxCalculator: {
+    title: string;
+    subtitle: string;
+    lead: string;
+    disclaimer: string;
+    /** Shown as opening lines in the n8n chat widget */
+    initialMessages: string[];
+  };
   footer: {
     tagline: string;
     copyright: string;
